@@ -1,0 +1,327 @@
+
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.d-flex {
+	display: flex;
+}
+ 
+.header {
+	width: 100%;
+	height: 600px;
+	background: linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+	url(../img/home-hero-2.jpg);
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 1;
+}
+
+.container {
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 2;
+}
+
+.logo{
+	background-image: url(../img/flexible-logo.png); 
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 0;
+	margin: 0;
+	width: 145px;
+	height: 47px;
+	transition: all 0,7s ease;
+}
+
+.logo:hover{
+	background-image: url(../img/flexible-logo-active.png); 
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+}
+
+.menu{
+	justify-content: space-between;
+	margin: 0;
+	padding-top: 57px;
+}
+
+.item a{
+	font-size: 20px;
+	align-items: center;
+	margin-left: 10px;
+	text-decoration: none;
+	transition: all 1s ease;
+	color: white;
+}
+
+.item a:hover{
+	font-size: 20px;
+	align-items: center;
+	margin-left: 10px;
+	text-decoration: none;
+	color: black;	
+}
+
+.info-header{
+	text-align: center;
+	padding-top: 150px;
+}
+
+.info-header h1{
+	color: #fff;
+}
+
+.info-header p{
+	color: #fff;
+}
+
+h1{
+	color: #000;
+	font-size: 35px;
+}
+
+p{
+	color: #000;
+	font-size: 20px;
+}
+
+.button{
+	background-color: #3283E5;
+	color: white;
+	width: 140px;
+	height: 40px;
+	border: none;
+	transition: all 0,7s ease;
+}
+
+.button:hover{
+	cursor: pointer;
+	color: white;
+	width: 140px;
+	height: 40px;
+	border: none;
+	box-shadow: 
+    inset 10px 10px 10px #0F63B6, 
+    inset -10px -10px 10px #0F63B6;
+}
+
+.offer{
+	text-align: center;
+	padding-top: 70px;
+}
+
+.offer h1{
+	color: #000;
+}
+
+.offer p{
+	color: #000;
+}
+
+.blog-posts{
+	justify-content: space-between;
+	margin-top: 100px;
+}
+
+.post{
+	text-align: center;
+}
+
+.post p{
+	color: #000;
+}
+
+.post img{
+	width: 275px;
+	height: 200px;
+}
+
+.more{
+	font-size: 16px;
+	border: none;
+	background-color: #fff;
+	margin-bottom: 50px;
+}
+
+.more:hover {
+	font-size: 16px;
+	border: none;
+	background-color: #fff;
+	color: #0F63B6;
+	cursor: pointer;
+}
+
+.sectionTodo{
+	background-color: #D5D3D1;
+	width: 100%;
+	height: 600px;
+}
+
+.todo{
+	text-align: center;
+	padding-top: 50px;
+}
+
+.todo h1{
+	color: #000;
+}
+
+.todo p {
+	color: #000;
+}
+
+.features{
+	justify-content: space-between;
+}
+
+.list{
+	text-align: center;
+	padding-top: 50px;
+	width: 280px;
+}
+
+.list p{
+	color: #000;
+	text-align: center;
+	font-size: 17px;
+}
+
+.resp {
+	justify-content: space-between;
+	padding-top: 100px;
+}
+
+.info h1{
+	text-align: center;
+	padding-top: 50px;
+	color: #000;
+}
+
+.info p {
+	text-align: left;
+	width: 400px;
+}
+
+.price{
+	text-align: center;
+}
+
+.price h1{
+	color: #000;
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 0;
+}
+
+.price p{
+	font-size: 14px;
+	margin-bottom: 30px;
+	padding-bottom: 0;
+}
+
+.supp{
+	text-align: center;
+	border: 1px solid #D5D3D1;
+	width: 285px;
+	padding-top: 30px;
+	margin-bottom: 50px;
+	padding-bottom: 30px;
+}
+
+.supp h1{
+	padding-top: 0;
+}
+
+.coment{
+	text-align: center;
+}
+
+.foot{
+	width: 100%;
+	height: 300px;
+	background: linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)), url(../img/pencil.jpg);
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 1;
+}
+
+.info-foot{
+	padding-top: 50px;
+	text-align: center;
+}
+
+.info-foot h1{
+	color: #fff;
+}
+
+.info-foot p{
+	color: #fff;
+}
+
+footer{
+	background-color: #000009;
+}
+
+.footer{
+	justify-content: space-between;
+}
+
+.reserv p{
+	color: #D5D3D1;
+	font-size: 15px;
+	margin-top: 45px;
+}
+
+.reserv span{
+	color: #D5D3D1;
+	font-size: 15px;
+	margin-top: 45px;
+	font-weight: 700;
+}
+
+.log-res{
+	background-image: url(../img/flexible-logo-footer.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 37px;
+	height: 47px;
+	margin-top: 30px;
+	margin-right: 25px;
+	margin-bottom: 35px;
+}
+
+.social{
+	margin-top: 40px;
+}
+
+.social a i{
+	margin-left: 15px;
+	font-size: 20px;
+	margin-top: 40px;
+	color: #D5D3D1;
+}
+
